@@ -4,9 +4,9 @@ import 'react-slideshow-image/dist/styles.css';
 
 
 const slideImages = [
-    '../../../assets/img/breadcrumb.jpg',
-    '../../../assets/img/experience-tag.jpg',
-    '../../../assets/img/solarrooftop.jpg'
+    '../../../assets/img/fixed tilt.jpg',
+    '../../../assets/img/solarhomepage.jpg',
+    '../../../assets/img/solarrooftop.png'
 ];
 
 const Slideshow = () => {

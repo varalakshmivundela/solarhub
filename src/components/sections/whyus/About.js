@@ -12,15 +12,30 @@ export default function Counter() {
             <div className="container">
                 <div className="with-man-shape">
                     <div className="row justify-content-center justify-content-lg-end">
-                        <div className="col-lg-6 col-md-10">
+                        <div className="col-lg-12 col-md-10">
                             <div className="about-text">
                                 <div className="section-title mb-40 left-border">
                                     <span className="title-tag">our impressions</span>
                                     <h2>We help businesses elevate their solar.</h2>
                                 </div>
                                 <p>
-                                    With more than four decades of proven success in quality solar services, Shelder solar and Retro-Fit group is a family-owned &amp; operated business serving the greater San Fransisco area state.Our expert team has been dedicated to providing the best service and quality available.
-            </p>
+                                 SolarHubEnergy is leading the way in the growing for solar energy market and offers one of the widest ranges of products and solutions in the market.
+                                 </p>
+                                <ui>
+                                    <li>Turnkey EPC Solution Provider</li>
+
+                                    <li>Complaint to Global standards</li>
+
+                                    <li>Cutting edge technology with Partnerships</li>
+
+                                    <li>Customized designs as per the Site conditions</li>
+
+                                    <li>Efficient Operations and Maintenance</li>
+
+                                    <li>Shortest Return On Investments</li>
+
+                                    <li>Capex or Resco Mode of Installations</li>
+                                </ui>
                                 <div className="about-features mt-50">
                                     <div className="sngle-features">
                                         <div className="chart" data-percent={75}>
@@ -44,7 +59,7 @@ export default function Counter() {
                                             <span className="icon"><i className="fas fa-award" /></span>
                                         </div>
                                         <div className="counter-box">
-                                            <CountUp start={focus ? 0 : null} end={32} duration={5} redraw={true}>
+                                            <CountUp start={focus ? 0 : null} end={5} duration={5} redraw={true}>
                                                 {({ countUpRef }) => (
                                                     <Fragment>
                                                         <span className="timer" ref={countUpRef} />
@@ -89,7 +104,7 @@ export default function Counter() {
                                             <span className="icon"><i className="fas fa-globe" /></span>
                                         </div>
                                         <div className="counter-box">
-                                            <CountUp start={focus ? 0 : null} end={99} duration={5} redraw={true}>
+                                            <CountUp start={focus ? 0 : null} end={30} duration={5} redraw={true}>
                                                 {({ countUpRef }) => (
                                                     <Fragment>
                                                         <span className="timer" ref={countUpRef} />
@@ -116,11 +131,11 @@ export default function Counter() {
                             </div>
                         </div>
                     </div>
-                    <div className="about-man-img">
+                    {/* <div className="about-man-img">
                         <div className="shape">
                             <img src={aboutmanimg} alt="" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

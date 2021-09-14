@@ -56,6 +56,9 @@ class Header extends Component {
                             </div>
                             <div className="col-md-6 col-sm-5">
                                 <ul className="social-link">
+                                    <li><Link to="/register">Register</Link></li>
+                                    <li><Link to="/register">Login</Link></li>
+                                    <li><Link to="/contact">Contact Us</Link></li>
                                     <li><Link to="#">fb</Link></li>
                                     <li><Link to="#">tw</Link></li>
                                     <li><Link to="#">be</Link></li>

@@ -225,21 +225,21 @@ const navigationmenu = [
         linkText: 'Calculators',
         link: '/contact'
     },
-    {
-        id: 9,
-        linkText: 'Contact Us',
-        link: '/contact'
-    },
-    {
-        id: 10,
-        linkText: 'Register',
-        link: '/register'
-    },
-    {
-        id: 11,
-        linkText: 'Login',
-        link: '/contact'
-    },
+    // {
+    //     id: 9,
+    //     linkText: 'Contact Us',
+    //     link: '/contact'
+    // },
+    // {
+    //     id: 10,
+    //     linkText: 'Register',
+    //     link: '/register'
+    // },
+    // {
+    //     id: 11,
+    //     linkText: 'Login',
+    //     link: '/contact'
+    // },
     
 ]
 

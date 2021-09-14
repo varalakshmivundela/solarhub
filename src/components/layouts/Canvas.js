@@ -17,7 +17,13 @@ class Canvas extends Component {
         return (
             <Fragment>
                 <div>
-                    <div className="widget recent-post">
+                    <div className="widget social-widget">
+                        <h4 className="widget-title"><Link to="/register">Register</Link></h4>
+                        <h4 className="widget-title"><Link to="/register">Login</Link></h4>
+                       
+                    </div>
+                                        
+                    {/* <div className="widget recent-post">
                         <h4 className="widget-title">Recent Posts</h4>
                         <ul>
                             {recentpost.map((item, i) => (
@@ -33,7 +39,7 @@ class Canvas extends Component {
                                 </li>
                             ))}
                         </ul>
-                    </div>
+                    </div> */}
                     <div className="widget contact-widget">
                         <h4 className="widget-title">Contact Us</h4>
                         <ul>

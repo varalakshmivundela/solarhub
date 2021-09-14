@@ -24,6 +24,8 @@ const Whyus = React.lazy(() => import("./components/pages/Whyus"));
 const Faqs = React.lazy(() => import("./components/pages/Faqs"));
 const Contact = React.lazy(() => import("./components/pages/Contact"));
 const Register = React.lazy(() => import("./components/pages/Register"));
+const Ongrid = React.lazy(() => import("./components/pages/OnGrid"));
+const Offgrid = React.lazy(() => import("./components/pages/OffGrid"));
 
 function App() {
   return (
@@ -50,6 +52,8 @@ function App() {
           <Route path="/faq" component={Faqs} />
           <Route path="/contact" component={Contact} />
           <Route path="/register" component={Register} />
+          <Route path="/on-grid" component={Ongrid} />
+          <Route path="/off-grid" component={Offgrid} />
         </Switch>
       </Suspense>
     </Router>

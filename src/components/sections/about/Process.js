@@ -13,12 +13,12 @@ class Process extends Component {
             <section className="framework-section padding-bottom-extra">
                 <div className="container">
                     <div className="row align-items-center justify-content-center">
-                        <div className="col-lg-6 col-md-10">
+                        {/* <div className="col-lg-6 col-md-10">
                             <div className="framework-img">
                                 <img src={frameworkimg} alt="" />
                             </div>
-                        </div>
-                        <div className="col-lg-6 col-md-10">
+                        </div> */}
+                        <div className="col-lg-12 col-md-10">
                             <div className="framework-text pl-20">
                                 <div className="section-title left-border mb-40">
                                     <span className="title-tag">Process</span>

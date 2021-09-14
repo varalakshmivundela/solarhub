@@ -702,7 +702,7 @@ header .header-top-area .social-link li {
     display: inline-block;
     font-weight: 700;
     font-size: 14px;
-    text-transform: lowercase;
+    text-transform: none;
     margin-right: 25px;
     font-family: "Oswald", sans-serif;
 }
