@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import Backtotop from './Backtotop';
 import { Link } from 'react-router-dom';
  
-import logo from '../../assets/img/hub-logo.png';
+
 
 import img1 from '../../assets/img/recent-post-wid/01.jpg';
 import img2 from '../../assets/img/recent-post-wid/02.jpg';

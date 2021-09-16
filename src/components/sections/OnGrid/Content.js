@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Sidebar from '../../layouts/Blogsidebar';
 import ongrid from '../../../assets/img/solutions/on grid.jpg';
 import ongridsystem from '../../../assets/img/solutions/on grid system.png';
 

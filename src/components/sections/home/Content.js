@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Habout from '../../layouts/Habout'
 import Portfolio from '../../layouts/Portfolio';
-import Banner from './Banner';
 import Blogpost from './Blogpost';
 import Cta from './Cta';
 import Features from './Features';

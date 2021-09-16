@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import Backtotop from './Backtotop';
 import { Link } from 'react-router-dom';
 
-import logo from '../../assets/img/hub-logo.png';
 
 class Footer extends Component {
     render() {

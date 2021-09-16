@@ -3,7 +3,6 @@ import CountUp from "react-countup";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import VisibilitySensor from "react-visibility-sensor";
 
-import aboutmanimg from '../../../assets/img/about/why_choose_us.png';
 
 export default function Counter() {
     const [focus, setFocus] = React.useState(false);

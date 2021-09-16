@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
-// About
 import aboutimg1 from '../../../assets/img/tile-gallery/04.jpg';
 import aboutimg2 from '../../../assets/img/tile-gallery/05.jpg';
-import aboutexp from '../../../assets/img/experience-tag.png';
 
 class About extends Component {
     render() {

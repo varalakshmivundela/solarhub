@@ -2,16 +2,6 @@ import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
 
-import img1 from '../../assets/img/laest-post/01.jpg';
-import img2 from '../../assets/img/laest-post/02.jpg';
-import img3 from '../../assets/img/laest-post/03.jpg';
-
-const recentpost = [
-    { img: img1, title: 'Signs moved moveth itself on years whose without.', date: '4 May.2020' },
-    { img: img2, title: 'Under brought airte them saw stars created seas.', date: '4 May.2020' },
-    { img: img3, title: 'Our form there seas set forth fill bearing.', date: '4 May.2020' },
-];
-
 class Canvas extends Component {
     render() {
         return (
